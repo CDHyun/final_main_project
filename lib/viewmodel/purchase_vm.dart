@@ -140,7 +140,7 @@ class PurchaseVM extends GetxController {
       {
         'category': "ads", // 카드번호
         'price': coin, // 충전이든 사용이든 여기에 넣어주기.
-        'coinHistory': myCoin.value + 10,
+        'coinHistory': myCoin.value + 50,
         'usedate': Timestamp.fromDate(DateTime.now())
       },
     );
