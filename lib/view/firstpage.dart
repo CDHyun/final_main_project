@@ -13,10 +13,12 @@ class First extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
+            SizedBox(
+              height: 200.h,
+            ),
             Image.asset(
-              "assets/images/login.png",
-              width: 340.w,
-              height: 400.h,
+              "assets/images/login2.png",
+              width: 320.w,
               fit: BoxFit.fill, //이미지 가득채우기
             ),
             SizedBox(
