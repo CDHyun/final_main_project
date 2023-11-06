@@ -3,6 +3,7 @@ import 'package:final_main_project/view/register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class First extends StatelessWidget {
   const First({super.key});
@@ -16,6 +17,9 @@ class First extends StatelessWidget {
             SizedBox(
               height: 200.h,
             ),
+            Text("심리 케어 & 연령 예측을 한번에!",
+                style: GoogleFonts.courgette(
+                    fontSize: 24, fontWeight: FontWeight.bold)),
             Image.asset(
               "assets/images/login2.png",
               width: 320.w,
